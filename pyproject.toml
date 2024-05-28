@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "simplep2p"
+version = "0.1.0"
+description = ""
+authors = ["Ryosuke Sato <ryosuke.sato.works@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.5.2"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
